@@ -1,0 +1,7 @@
+services:
+  capdata_connector.commands:
+    class: \Drupal\capdata_connector\Commands\CapdataConnectorCommands
+    arguments:
+      - '@capdata_connector.capdata_manager'
+    tags:
+      - { name: drush.command }

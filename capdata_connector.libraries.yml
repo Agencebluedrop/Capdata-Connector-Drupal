@@ -1,0 +1,4 @@
+capdata_settingsstyles:
+  css:
+    theme:
+      css/capdataconnector-settings-form.css: {}

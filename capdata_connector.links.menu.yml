@@ -1,0 +1,5 @@
+capdata_connector.admin_settings:
+  title: 'Capdata Connector Settings'
+  route_name: capdata_connector.admin_settings
+  description: 'Configurer les paramètres du Capdata Connector'
+  parent: system.admin_config_services

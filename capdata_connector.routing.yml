@@ -1,0 +1,15 @@
+capdata_connector.admin_settings:
+  path: '/admin/config/services/capdata-mapping'
+  defaults:
+    _form: '\Drupal\capdata_connector\Form\CapDataConnectorSettingsForm'
+    _title: 'Paramètres du CapData Connector'
+  requirements:
+    _permission: 'administer site configuration'
+
+capdata_connector.capdata_export:
+  path: '/rof/capdata-rdf-export'
+  defaults:
+    _controller: '\Drupal\capdata_connector\Controller\RofExportController::capdataRdfExport'
+    _title: 'ROF'
+  requirements:
+    _access: 'TRUE'

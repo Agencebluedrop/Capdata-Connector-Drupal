@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains capdata_connector hooks and functions.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function capdata_connector_help(string $route_name, RouteMatchInterface $route_match) : string {
+    $help = '';
+    switch ($route_name) {
+        case 'help.page.capdata_connector':
+            $help = '<p>' . t('Ce module permet de gérer le mapping des différentes classes et propriétés de l\'ontologie aux structures de données de Drupal.') . '</p>';
+        break;    
+    }
+    return $help;
+}

@@ -1,0 +1,11 @@
+{
+    "name": "drupal/capdata_connector",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "description": "Provides a CapData Connector",
+    "homepage": "https://www.drupal.org/project/capdata_connector",
+    "require": {
+        "drupal/core": "^9 || ^10",
+        "capdataopera/php-sdk": "0.7.0"
+    }
+}

@@ -1,0 +1,10 @@
+services:
+  capdata_connector.capdata_manager:
+    class: Drupal\capdata_connector\CapDataConnectorManager
+    arguments:
+      - '@entity_field.manager'
+      - '@entity_type.manager'
+      - '@config.factory'
+      - '@request_stack'
+      - '@file_url_generator'
+      - '@module_handler'

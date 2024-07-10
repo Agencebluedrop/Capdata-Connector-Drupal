@@ -1,0 +1,4 @@
+.single-capdata-property-fieldset .fieldset__wrapper{
+    display: flex;
+    justify-content: space-between;
+}

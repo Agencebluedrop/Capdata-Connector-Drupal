@@ -1,0 +1,6 @@
+name: 'CapData connector'
+type: module
+description: 'Export des données du site Drupal dans un fichier au format RDF.'
+core_version_requirement: ^9 || ^10
+package: CapData Opéra
+configure: capdata_connector.admin_settings
